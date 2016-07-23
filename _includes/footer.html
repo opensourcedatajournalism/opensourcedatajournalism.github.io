@@ -8,16 +8,12 @@
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li>
+            {% include icon-github.html username=site.github_username reponame="opensourcedatajournalism.github.io" %}
+          </li>
+
         </ul>
 
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-        </ul>
         <ul>
           <li><a href="https://twitter.com/christinezhang">Christine Zhang</a></li>
           <li><a href="https://twitter.com/dancow">Dan Nguyen</a></li>
