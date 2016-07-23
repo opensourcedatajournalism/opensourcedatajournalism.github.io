@@ -12,7 +12,6 @@ description: |
   How data journalists open source the reproducable data, analyses, and code behind their data stories. By Christine Zhang and Dan Nguyen.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://opensourcedatajournalism.github.io" # the base hostname & protocol for your site
-twitter_username: dancow
 github_username: opensourcedatajournalism
 
 # Build settings
